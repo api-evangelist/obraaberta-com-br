@@ -1,4 +1,4 @@
-# obraaberta-com-br
+# ObraAberta
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,138 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-obraaberta-com-br is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://obraaberta.com.br/
+ObraAberta is a Brazilian transparency portal that aggregates and publishes detailed information about construction projects, allowing buyers, condominiums, contractors, and suppliers to research, monitor, and participate in each stage of a work. The platform provides searchable databases of ongoing and completed works, supplier listings, and tools for users to register, follow projects, and access legal documents, fostering informed decision‑making in the construction market.
+
+**Areas:** Construction · Transparency · Brazil · RealEstate · PublicData
+
+## ObraAberta on APIs.io
+
+Everything profiled for ObraAberta is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/obraaberta-com-br/](https://apis.io/providers/obraaberta-com-br/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [ObraAberta Construtoras API](https://apis.io/apis/obraaberta-com-br/obraaberta-com-br-construtoras-api/) — Cadastro, obras e reputação (ISE).
+- [ObraAberta Dados API](https://apis.io/apis/obraaberta-com-br/obraaberta-com-br-dados-api/) — Bases abertas incorporadas e fontes utilizadas.
+- [ObraAberta Metabuscador API](https://apis.io/apis/obraaberta-com-br/obraaberta-com-br-metabuscador-api/) — Produtos canônicos, ofertas de parceiros, preços, disponibilidade, ingestão e métricas comerciais.
+- [ObraAberta Partner API](https://apis.io/apis/obraaberta-com-br/obraaberta-com-br-partner-api-api/) — Integração server-to-server sandbox para lojistas e fabricantes.
+- [ObraAberta Projetos API](https://apis.io/apis/obraaberta-com-br/obraaberta-com-br-projetos-api/) — Obras publicadas, linha do tempo, avaliações e entorno.
+- [ObraAberta Sistema API](https://apis.io/apis/obraaberta-com-br/obraaberta-com-br-sistema-api/) — Descoberta, disponibilidade e especificação.
+- [ObraAberta Transparência condominial API](https://apis.io/apis/obraaberta-com-br/obraaberta-com-br-transpar-ncia-condominial-api/) — Contratações e fornecedores publicados pelo condomínio; exportação privada por chave escopada.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [ObraAberta Agentic Access](https://apis.io/agentic-access/obraaberta-com-br/obraaberta-com-br-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Construtora](https://apis.io/schemas/obraaberta-com-br/obraaberta-com-br-construtora/)
+- [Erro](https://apis.io/schemas/obraaberta-com-br/obraaberta-com-br-erro/)
+- [Job](https://apis.io/schemas/obraaberta-com-br/obraaberta-com-br-job/)
+- [Obra](https://apis.io/schemas/obraaberta-com-br/obraaberta-com-br-obra/)
+- [ServicosProximos](https://apis.io/schemas/obraaberta-com-br/obraaberta-com-br-servicos-proximos/)
+- [Timeline](https://apis.io/schemas/obraaberta-com-br/obraaberta-com-br-timeline/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Obraaberta Com Br Context](https://apis.io/jsonld/obraaberta-com-br/obraaberta-com-br-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ObraAberta API Rules](https://apis.io/rules/obraaberta-com-br/obraaberta-com-br-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [ObraAberta Authentication](https://apis.io/security/obraaberta-com-br/obraaberta-com-br-authentication/)
+- [ObraAberta Domain Security](https://apis.io/security/obraaberta-com-br/obraaberta-com-br-domain-security/)
+- [ObraAberta Vulnerability Disclosure](https://apis.io/security/obraaberta-com-br/obraaberta-com-br-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [ObraAberta Scopes](https://apis.io/scopes/obraaberta-com-br/obraaberta-com-br-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://obraaberta.com.br/)
+- [Documentation](https://obraaberta.com.br/api/docs)
+- [Getting started](https://obraaberta.com.br/planos)
+- [API reference](https://obraaberta.com.br/openapi.json)
+- [Pricing](https://obraaberta.com.br/pricing)
+- [Support](https://obraaberta.com.br/contato)
+- [Blog](https://obraaberta.com.br/blog)
+- [Security](https://obraaberta.com.br/contato)
+- [Terms of service](https://obraaberta.com.br/documentos-legais)
+- [Privacy policy](https://obraaberta.com.br/privacidade)
+
+## API Evangelist rating
+
+**Kin Score 56.6** — strong · rubric 0.27.0 · scored 2026-11-19
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 57.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 70.7 |
+| Access clarity | 31.6 |
+
+**Agent readiness 54.6** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 40.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/obraaberta-com-br/](https://apis.io/providers/obraaberta-com-br/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ObraAberta: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/obraaberta-com-br/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
